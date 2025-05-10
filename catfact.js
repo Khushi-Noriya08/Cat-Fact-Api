@@ -13,7 +13,7 @@ btn.addEventListener("click", function () {
 
       display.textContent = `Fact 1: ${data.fact}\nFact 2: ${data2.fact}`;
     } catch (error) {
-      display.innertext = "Oops! Couldn't get a cat fact.";
+      display.innerText = "Oops! Couldn't get a cat fact.";
       console.log("error", error);
     }
   }
